@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>AS</groupId>
-    <artifactId>LogTester</artifactId>
+    <artifactId>SolutionTester</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -68,6 +68,31 @@
             <version>1.16.6</version>
             <scope>provided</scope>
         </dependency>
+
+        <!--New few things-->
+        <!--GUAVA-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+
+        <!--JMS-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+            <version>4.1.4.RELEASE</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+            <version>5.13.2</version>
+        </dependency>
+
+
+        <!--Mockito-->
 
         <!--Aspect-->
         <dependency>
