@@ -26,5 +26,7 @@ public class GuavaStreamsTests {
         List<Integer> w = l.stream().collect(Collectors.toList());
         System.out.println(w);
 
+
+
     }
 }
