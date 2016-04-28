@@ -17,5 +17,13 @@
     <bean class="ExceptionHandling.MyExceptionResolver">
     </bean>
     <!--<aop:aspectj-autoproxy />-->
+    
+    <context:component-scan base-package="BaBaInt"/>
+     <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="BaBaInt.BaBaInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>
