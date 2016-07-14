@@ -32,5 +32,7 @@ public class ATest {
         assertThat(mockRepo.getNumbers().size()).isEqualTo(4);
         System.out.println(mockRepo.getNumbers());
     }
+    
+    //Matchers:   verify(instanceOfMyClass, times(1)).audit(eq(someActions.UPDATE_EMIDAS_USER_CREDENTIAL_TYPES), anyString());
 
 }
